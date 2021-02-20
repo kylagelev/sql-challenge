@@ -42,12 +42,3 @@ create table salaries(
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	salary INT	
 );
-
-
-select * from departments
-
-drop table dept_emp
-drop table dept_managers
-drop table salaries
-drop table employees
-
